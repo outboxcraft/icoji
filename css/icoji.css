@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'icoji';
+  src: url('../font/icoji.eot?31425838');
+  src: url('../font/icoji.eot?31425838#iefix') format('embedded-opentype'),
+       url('../font/icoji.woff2?31425838') format('woff2'),
+       url('../font/icoji.woff?31425838') format('woff'),
+       url('../font/icoji.ttf?31425838') format('truetype'),
+       url('../font/icoji.svg?31425838#icoji') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'icoji';
+    src: url('../font/icoji.svg?31425838#icoji') format('svg');
+  }
+}
+*/
+ 
+ [class^="icoji-"]:before, [class*=" icoji-"]:before {
+  font-family: "icoji";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icoji-message:before { content: '\e800'; } /* '' */
+.icoji-connect:before { content: '\e801'; } /* '' */
+.icoji-bin:before { content: '\e802'; } /* '' */
+.icoji-user:before { content: '\e803'; } /* '' */
+.icoji-search:before { content: '\e804'; } /* '' */
+.icoji-move:before { content: '\e805'; } /* '' */
+.icoji-key:before { content: '\e806'; } /* '' */
+.icoji-game:before { content: '\e807'; } /* '' */
+.icoji-brick:before { content: '\e808'; } /* '' */
+.icoji-question:before { content: '\e809'; } /* '' */
+.icoji-at:before { content: '\e80a'; } /* '' */
+.icoji-home:before { content: '\e80b'; } /* '' */
+.icoji-arrow-right:before { content: '\e80c'; } /* '' */
+.icoji-arrow-left:before { content: '\e80d'; } /* '' */
+.icoji-arrow-up:before { content: '\e80e'; } /* '' */
+.icoji-arrow-down:before { content: '\e80f'; } /* '' */
+.icoji-upload:before { content: '\e810'; } /* '' */
+.icoji-download:before { content: '\e811'; } /* '' */
+.icoji-tick:before { content: '\e812'; } /* '' */
+.icoji-bars:before { content: '\e813'; } /* '' */
+.icoji-folder:before { content: '\e814'; } /* '' */
+.icoji-file:before { content: '\e815'; } /* '' */
+.icoji-book:before { content: '\e816'; } /* '' */
+.icoji-command:before { content: '\e817'; } /* '' */
+.icoji-mute:before { content: '\e818'; } /* '' */
+.icoji-unlike:before { content: '\e819'; } /* '' */
+.icoji-like:before { content: '\e81a'; } /* '' */
+.icoji-experiment:before { content: '\e81b'; } /* '' */
+.icoji-gift:before { content: '\e81c'; } /* '' */
+.icoji-tag:before { content: '\e81d'; } /* '' */
+.icoji-share:before { content: '\e81e'; } /* '' */
+.icoji-pencil:before { content: '\e81f'; } /* '' */
+.icoji-sound:before { content: '\e820'; } /* '' */
+.icoji-network:before { content: '\e821'; } /* '' */
+.icoji-vibrate:before { content: '\e822'; } /* '' */
+.icoji-mark:before { content: '\e823'; } /* '' */
+.icoji-adjust:before { content: '\e824'; } /* '' */
+.icoji-bookmark:before { content: '\e825'; } /* '' */
+.icoji-play:before { content: '\e826'; } /* '' */
+.icoji-pause:before { content: '\e827'; } /* '' */
+.icoji-stop:before { content: '\e828'; } /* '' */
+.icoji-eject:before { content: '\e829'; } /* '' */
+.icoji-save:before { content: '\e82a'; } /* '' */
+.icoji-in:before { content: '\e82b'; } /* '' */
+.icoji-lock:before { content: '\e82c'; } /* '' */
+.icoji-rook:before { content: '\e82d'; } /* '' */
+.icoji-knight:before { content: '\e82e'; } /* '' */
+.icoji-bishop:before { content: '\e82f'; } /* '' */
+.icoji-queen:before { content: '\e830'; } /* '' */
+.icoji-king:before { content: '\e831'; } /* '' */
+.icoji-pawn:before { content: '\e832'; } /* '' */
+.icoji-tool:before { content: '\e833'; } /* '' */
+.icoji-ghost:before { content: '\e834'; } /* '' */
+.icoji-heart:before { content: '\e835'; } /* '' */
+.icoji-plus:before { content: '\e836'; } /* '' */
+.icoji-exclaimation:before { content: '\e837'; } /* '' */
+.icoji-notification:before { content: '\e838'; } /* '' */
+.icoji-cross:before { content: '\e839'; } /* '' */
+.icoji-bell:before { content: '\e83a'; } /* '' */
+.icoji-dash:before { content: '\e83b'; } /* '' */
