@@ -1,4 +1,4 @@
-ICOJI v0.1
+ICOJI v0.1 http://icoji.outboxcraft.com
 By Shubham Ramdeo and Navneet Vyas
 Copyright 2017
 
@@ -83,4 +83,4 @@ icoji-knight
 icoji-bishop
 
 SUPPORT:
-Please visit support.outboxcraft.com for any support or feedback.
+Please visit http://support.outboxcraft.com for any support or feedback.
