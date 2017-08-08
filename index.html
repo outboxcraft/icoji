@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -43,6 +44,104 @@
     @media (max-width:350px) {
     .lis {margin:1%;}
     }
+
+
+	.icoji-2x {font-size:150%;}
+	.icoji-3x {font-size:300%;}
+	.icoji-4x {font-size:400%;}
+	.icoji-10x {font-size:1000%;}
+    .icoji-15x {font-size:1500%;}
+	/*
+   Animation example, for spinners
+*/
+.icoji-spin {
+  -moz-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  -webkit-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
+  display: inline-block;
+}
+@-moz-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@-o-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@-ms-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+
+h1 {color:#33c3f0}
+
+
+
     </style>
     <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -54,268 +153,258 @@
     ga('set', 'userId', '146584675');
     </script>
 </head>
-<body>
-    <ul class="topnav" id="myTopnav">
-        <li>
-            <a class="brand"><i class="icoji-heart" style="color:#33C3F0"></i>icoji</a>
-        </li>
-    </ul>
-    <hr>
-    <div class="jumbo">
-        <h1><i class="icoji-home"></i>icoji</h1>
-        <p>Simple icons for Sweet projects</p><a href="https://github.com/outboxcraft/icoji/archive/master.zip"><button class="_button _primary _box">DOWNLOAD icoji <i class="icoji-download"></i></button></a><br>
-        <small>current v0.1</small>
+<body style="background-color:#fff">
+
+
+
+
+
+
+    <div class="jumbo  _alignCenter" style="background:#f7f7f7;">
+
+        <div class="jumbo">
+            <h1 style="color:#000"><i class="icoji-home"></i>icoji</h1>
+            <p>Simple icons for Sweet projects</p>
+            <button class="_info _box" onclick="myBtnfunction()">Get here</button>
+            <br><small>Current v0.2</small><br>
+
+
+
+   <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" title="Twitter Tweet Button" src="http://platform.twitter.com/widgets/tweet_button.89bd237a86eeb0e8b1de842a4b88b09b.en.html#dnt=false&amp;hashtags=icoji&amp;id=twitter-widget-0&amp;lang=en&amp;original_referer=http%3A%2F%2Ficoji.outboxcraft.com%2F&amp;related=ramdeoshubham&amp;size=m&amp;text=icoji%20-%20A%20simple%20icons%20for%20sweet%20projects.&amp;time=1490279981139&amp;type=share&amp;url=http%3A%2F%2Ficoji.outboxcraft.com&amp;via=ramdeoshubham" style="position: static; visibility: visible; width: 60px; height: 20px;" data-url="http://icoji.outboxcraft.com"></iframe>
+        <a class="github-button" href="https://github.com/outboxcraft/icoji" data-icon="octicon-star" aria-label="Star outboxcraft/icoji on GitHub">Star</a>
+        <a class="github-button" href="https://github.com/outboxcraft/icoji/fork" data-icon="octicon-repo-forked" aria-label="Fork outboxcraft/icoji on GitHub">Fork</a>
+
+        </div>
+
+
     </div>
-    <hr>
+
+   <div class=jumbo></div>
+
     <div class="container">
         <h1>Icons<i class="icoji-gift"></i></h1>
-        <div class="alert _primary _box">
+        <div class="alert _cream _box " style="border:1px solid #33c3f0 !important;">
             <i class="icoji-exclaimation"></i> Hover on the icons to see their class names
         </div>
-        <div class="_alignCenter">
+        <div class="_alignCenter ">
+
             <div class="row">
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-message"></i><span class="tooltiptext">icoji-message</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-connect"></i><span class="tooltiptext">icoji-connect</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-bin"></i><span class="tooltiptext">icoji-bin</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-user"></i><span class="tooltiptext">icoji-user</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-search"></i><span class="tooltiptext">icoji-search</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-move"></i><span class="tooltiptext">icoji-move</span>
-                </div>
-            </div>
-            <div class="row">
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-key"></i><span class="tooltiptext">icoji-key</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-game"></i><span class="tooltiptext">icoji-game</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-brick"></i><span class="tooltiptext">icoji-brick</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-question"></i><span class="tooltiptext">icoji-question</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-at"></i><span class="tooltiptext">icoji-at</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-home"></i><span class="tooltiptext">icoji-home</span>
-                </div>
-            </div>
-            <div class="row">
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-arrow-right"></i><span class="tooltiptext">icoji-arrow-right</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-arrow-left"></i><span class="tooltiptext">icoji-arrow-left</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-arrow-up"></i><span class="tooltiptext">icoji-arrow-up</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-arrow-down"></i><span class="tooltiptext">icoji-arrow-down</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-upload"></i><span class="tooltiptext">icoji-upload</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-download"></i><span class="tooltiptext">icoji-download</span>
-                </div>
-            </div>
-            <div class="row">
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-tick"></i><span class="tooltiptext">icoji-tick</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-bars"></i><span class="tooltiptext">icoji-bars</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-folder"></i><span class="tooltiptext">icoji-folder</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-file"></i><span class="tooltiptext">icoji-file</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-book"></i><span class="tooltiptext">icoji-book</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-command"></i><span class="tooltiptext">icoji-command</span>
-                </div>
-            </div>
-            <div class="row">
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-mute"></i><span class="tooltiptext">icoji-mute</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-unlike"></i><span class="tooltiptext">icoji-unlike</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-like"></i><span class="tooltiptext">icoji-like</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-experiment"></i><span class="tooltiptext">icoji-experiment</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-gift"></i><span class="tooltiptext">icoji-gift</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-tag"></i><span class="tooltiptext">icoji-tag</span>
-                </div>
-            </div>
-            <div class="row">
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-share"></i><span class="tooltiptext">icoji-share</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-pencil"></i><span class="tooltiptext">icoji-pencil</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-sound"></i><span class="tooltiptext">icoji-sound</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-network"></i><span class="tooltiptext">icoji-network</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-vibrate"></i><span class="tooltiptext">icoji-vibrate</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-mark"></i><span class="tooltiptext">icoji-mark</span>
-                </div>
-            </div>
-            <div class="row">
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-adjust"></i><span class="tooltiptext">icoji-adjust</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-bookmark"></i><span class="tooltiptext">icoji-bookmark</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-play"></i><span class="tooltiptext">icoji-play</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-pause"></i><span class="tooltiptext">icoji-pause</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-stop"></i><span class="tooltiptext">icoji-stop</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-eject"></i><span class="tooltiptext">icoji-eject</span>
-                </div>
-            </div>
-            <div class="row">
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-save"></i><span class="tooltiptext">icoji-save</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-in"></i><span class="tooltiptext">icoji-in</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-lock"></i><span class="tooltiptext">icoji-lock</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-tool"></i><span class="tooltiptext">icoji-tool</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-ghost"></i><span class="tooltiptext">icoji-ghost</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-heart"></i><span class="tooltiptext">icoji-heart</span>
-                </div>
-            </div>
-            <div class="row">
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-plus"></i><span class="tooltiptext">icoji-plus</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-exclaimation"></i><span class="tooltiptext">icoji-exclaimation</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-notification"></i><span class="tooltiptext">icoji-notification</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-cross"></i><span class="tooltiptext">icoji-cross</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-bell"></i><span class="tooltiptext">icoji-bell</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-dash"></i><span class="tooltiptext">icoji-dash</span>
-                </div>
-            </div>
-            <div class="row">
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-queen"></i><span class="tooltiptext">icoji-queen</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-king"></i><span class="tooltiptext">icoji-king</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-pawn"></i><span class="tooltiptext">icoji-pawn</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-rook"></i><span class="tooltiptext">icoji-rook</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-knight"></i><span class="tooltiptext">icoji-knight</span>
-                </div>
-                <div class="tooltip -tooltip-top lis">
-                    <i class="_high icoji-bishop"></i><span class="tooltiptext">icoji-bishop</span>
-                </div>
-            </div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-refresh"></i><span class="tooltiptext">icoji-refresh</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-rook"></i><span class="tooltiptext">icoji-rook</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-save"></i><span class="tooltiptext">icoji-save</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-search"></i><span class="tooltiptext">icoji-search</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-setting"></i><span class="tooltiptext">icoji-setting</span></div>
         </div>
+            <div class="row">
+		<div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-share"></i><span class="tooltiptext">icoji-share</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-slide"></i><span class="tooltiptext">icoji-slide</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-sound"></i><span class="tooltiptext">icoji-sound</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-stop"></i><span class="tooltiptext">icoji-stop</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-tablet"></i><span class="tooltiptext">icoji-tablet</span></div>
+        </div>
+            <div class="row">
+		<div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-tag"></i><span class="tooltiptext">icoji-tag</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-tea"></i><span class="tooltiptext">icoji-tea</span></div>
+		<div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-tick"></i><span class="tooltiptext">icoji-tick</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-tool"></i><span class="tooltiptext">icoji-tool</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-toolbox"></i><span class="tooltiptext">icoji-toolbox</span></div>
+        </div>
+            <div class="row">
+		<div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-trash"></i><span class="tooltiptext">icoji-trash</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-upload"></i><span class="tooltiptext">icoji-upload</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-user"></i><span class="tooltiptext">icoji-user</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-vibrate"></i><span class="tooltiptext">icoji-vibrate</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-video"></i><span class="tooltiptext">icoji-video</span></div>
+        </div>
+            <div class="row">
+		<div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-wallet"></i><span class="tooltiptext">icoji-wallet</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-wifi"></i><span class="tooltiptext">icoji-wifi</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-adjust"></i><span class="tooltiptext">icoji-adjust</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-alert"></i><span class="tooltiptext">icoji-alert</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-arrow-down"></i><span class="tooltiptext">icoji-arrow-down</span></div>
+        </div>
+            <div class="row">
+		<div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-arrow-left"></i><span class="tooltiptext">icoji-arrow-left</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-arrow-right"></i><span class="tooltiptext">icoji-arrow-right</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-arrow-up"></i><span class="tooltiptext">icoji-arrow-up</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-at"></i><span class="tooltiptext">icoji-at</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-bag"></i><span class="tooltiptext">icoji-bag</span></div>
+        </div>
+            <div class="row">
+		<div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-bars"></i><span class="tooltiptext">icoji-bars</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-bell"></i><span class="tooltiptext">icoji-bell</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-bin"></i><span class="tooltiptext">icoji-bin</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-bishop"></i><span class="tooltiptext">icoji-bishop</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-bluetooth"></i><span class="tooltiptext">icoji-bluetooth</span></div>
+        </div>
+            <div class="row">
+		<div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-board"></i><span class="tooltiptext">icoji-board</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-book"></i><span class="tooltiptext">icoji-book</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-bookmark"></i><span class="tooltiptext">icoji-bookmark</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-brick"></i><span class="tooltiptext">icoji-brick</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-calc"></i><span class="tooltiptext">icoji-calc</span></div>
+        </div>
+            <div class="row">
+		<div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-camera"></i><span class="tooltiptext">icoji-camera</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-cardpay"></i><span class="tooltiptext">icoji-cardpay</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-command"></i><span class="tooltiptext">icoji-command</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-connect"></i><span class="tooltiptext">icoji-connect</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-copy"></i><span class="tooltiptext">icoji-copy</span></div>
+        </div>
+            <div class="row">
+		<div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-crop"></i><span class="tooltiptext">icoji-crop</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-cross"></i><span class="tooltiptext">icoji-cross</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-dash"></i><span class="tooltiptext">icoji-dash</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-desktop"></i><span class="tooltiptext">icoji-desktop</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-dislike"></i><span class="tooltiptext">icoji-dislike</span></div>
+        </div>
+            <div class="row">
+		<div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-dollar"></i><span class="tooltiptext">icoji-dollar</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-download"></i><span class="tooltiptext">icoji-download</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-edit"></i><span class="tooltiptext">icoji-edit</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-eject"></i><span class="tooltiptext">icoji-eject</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-exchange"></i><span class="tooltiptext">icoji-exchange</span></div>
+        </div>
+            <div class="row">
+		<div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-exclaimation"></i><span class="tooltiptext">icoji-exclaimation</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-experiment"></i><span class="tooltiptext">icoji-experiment</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-fax"></i><span class="tooltiptext">icoji-fax</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-file"></i><span class="tooltiptext">icoji-file</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-filter"></i><span class="tooltiptext">icoji-filter</span></div>
+        </div>
+            <div class="row">
+		<div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-flag"></i><span class="tooltiptext">icoji-flag</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-folder"></i><span class="tooltiptext">icoji-folder</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-game"></i><span class="tooltiptext">icoji-game</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-ghost"></i><span class="tooltiptext">icoji-ghost</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-gift"></i><span class="tooltiptext">icoji-gift</span></div>
+        </div>
+            <div class="row">
+		<div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-glass"></i><span class="tooltiptext">icoji-glass</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-goggles"></i><span class="tooltiptext">icoji-goggles</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-graph"></i><span class="tooltiptext">icoji-graph</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-heart"></i><span class="tooltiptext">icoji-heart</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-home"></i><span class="tooltiptext">icoji-home</span></div>
+        </div>
+            <div class="row">
+		<div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-hourglass"></i><span class="tooltiptext">icoji-hourglass</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-in"></i><span class="tooltiptext">icoji-in</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-key"></i><span class="tooltiptext">icoji-key</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-king"></i><span class="tooltiptext">icoji-king</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-knight"></i><span class="tooltiptext">icoji-knight</span></div>
+        </div>
+            <div class="row">
+		<div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-laptop"></i><span class="tooltiptext">icoji-laptop</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-like"></i><span class="tooltiptext">icoji-like</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-link"></i><span class="tooltiptext">icoji-link</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-list"></i><span class="tooltiptext">icoji-list</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-lock"></i><span class="tooltiptext">icoji-lock</span></div>
+        </div>
+            <div class="row">
+		<div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-map"></i><span class="tooltiptext">icoji-map</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-mark"></i><span class="tooltiptext">icoji-mark</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-message"></i><span class="tooltiptext">icoji-message</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-mic"></i><span class="tooltiptext">icoji-mic</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-mobile"></i><span class="tooltiptext">icoji-mobile</span></div>
+        </div>
+            <div class="row">
+		<div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-move"></i><span class="tooltiptext">icoji-move</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-mute"></i><span class="tooltiptext">icoji-mute</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-network"></i><span class="tooltiptext">icoji-network</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-notification"></i><span class="tooltiptext">icoji-notification</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-out"></i><span class="tooltiptext">icoji-out</span></div>
+        </div>
+            <div class="row">
+		<div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-pause"></i><span class="tooltiptext">icoji-pause</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-pawn"></i><span class="tooltiptext">icoji-pawn</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-pencil"></i><span class="tooltiptext">icoji-pencil</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-pin"></i><span class="tooltiptext">icoji-pin</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-play"></i><span class="tooltiptext">icoji-play</span></div>
+        </div>
+            <div class="row">
+		<div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-plus"></i><span class="tooltiptext">icoji-plus</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-queen"></i><span class="tooltiptext">icoji-queen</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-question"></i><span class="tooltiptext">icoji-question</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-read"></i><span class="tooltiptext">icoji-read</span></div>
+        <div class="tooltip -tooltip-top lis"><i class="icoji-2x icoji-reel"></i><span class="tooltiptext">icoji-reel</span></div>
+		</div>
+
+            </div>
+
     </div>
     <hr>
     <div class="container">
         <h1>Usage<i class="icoji-book"></i></h1>
         <p>Download and extract the files in your project directory.</p>
         <p></p>
-        <pre><code>project/
+        <pre><code class="_box _cream " style="border:1px solid #33c3f0 !important; ">project/
       --icoji/
             --css
             --font
             --README.txt
-            
+
       --yoursite.html
 </code></pre>
         <p>Include the icoji css file inside the <code>&lt;head&gt;</code> section of your HTML.</p>
-        <pre><code>&lt;link rel="stylesheet" href="css/icoji.css"&gt;
+        <pre><code class="_box _cream " style="border:1px solid #33c3f0 !important;">&lt;link rel="stylesheet" href="css/icoji.css"&gt;
 </code></pre>
         <p>To use a specific icon, use its class name. For example</p>
-        <pre><code>&lt;i class="icoji-heart"&gt;&lt;/i&gt;
+        <pre><code class="_box _cream " style="border:1px solid #33c3f0 !important;">&lt;i class="icoji-heart"&gt;&lt;/i&gt;
 </code></pre>
         <p>And the result will be</p>
         <p><i class="icoji-heart"></i></p>
+
+
+<hr>
+		<h1>CSS hacks<i class="icoji-experiment"></i></h1>
+
+<p>To change the size, you can make classes like icoji-2x, icoji-3x, icoji-4x and so on...</p>
+
+
+        <pre><code class="_box _cream " style="border:1px solid #33c3f0 !important;">/* CSS */
+.icoji-2x {font-size:200%;}
+.icoji-3x {font-size:300%;}
+.icoji-4x {font-size:400%;}
+
+&lt;!-- HTML -->
+
+&lt;i class="icoji-heart"&gt;&lt;/i&gt;
+&lt;i class="icoji-heart icoji-2x"&gt;&lt;/i&gt;
+&lt;i class="icoji-heart icoji-3x"&gt;&lt;/i&gt;
+&lt;i class="icoji-heart icoji-4x"&gt;&lt;/i&gt;
+</code></pre>
+
+
+		<p class="_alignCenter"><i class="icoji-heart"></i>
+<i class="icoji-heart icoji-2x"></i>
+<i class="icoji-heart icoji-3x"></i>
+<i class="icoji-heart icoji-4x"></i></p>
+
+
+
+
+
+
+
     </div>
     <hr>
-    <div class="container _low">
+    <div class="container">
         <h1>License<i class="icoji-lock"></i></h1>
-        <p>icoji is a copyrighted work by Shubham Ramdeo and Navneet Vyas and is distributed for free. You can use it for any commercial or non commercial purpose as long as your usage doesn't break the copyright laws and the following licenses.</p>
-        <p>For Fonts, <a href="http://scripts.sil.org/OFL">SIL OFL</a> applied to all font files in <code>/icoji/fonts</code>. The code is distributed under <a href="https://opensource.org/licenses/MIT">MIT License</a>, applies to all code files in <code>/icoji/css</code>. This website and the documentation are available under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. The icons and the artwork itself is distributed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA licence</a>. Please read README.txt in the downloaded icoji package.</p>
+        <p class="_low">icoji is a copyrighted work is distributed for free. You can use it for any commercial or non commercial purpose as long as your usage doesn't break the copyright laws and the following licenses.</p>
+        <p class="_low">For Fonts, <a href="http://scripts.sil.org/OFL">SIL OFL</a> applied to all font files in <code>/icoji/fonts</code>. The code is distributed under <a href="https://opensource.org/licenses/MIT">MIT License</a>, applies to all code files in <code>/icoji/css</code>. This website and the documentation are available under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. The icons and the artwork itself is distributed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA license</a>. Please read README.txt in the downloaded icoji package.</p><br>
     </div>
-    <hr>
-    <div class="jumbo _alignCenter">
+
+
+	</div>
+
+<div style="border-top:2px solid rgb(51,195,240);">
+    <div class="jumbo  _alignCenter" style="background:#f7f7f7">
         <a class="_hidden" href="sitemap.html">Sitemap</a> <i class="icoji-pencil"></i>with<i class="icoji-heart"></i><br>
-        Navneet Vyas & Shubham Ramdeo<br>
-        <a class="twitter-follow-button" data-show-count="false" data-size="medium" href="https://twitter.com/VyasNavneet16">Follow @vyasnavneet</a> 
-        <script>
-        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-        </script> <a class="twitter-follow-button" data-show-count="false" data-size="medium" href="https://twitter.com/ramdeoshubham">Follow @ramdeoshubham</a> 
-        <script>
-        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-        </script><br>
-        <b><a href="http://labs.outboxcraft.com">Outboxcraft Labs<i class="icoji-experiment"></i><b></b></a><br>
-        &copy; 2017<br></b><br>
+
+        <b><a href="http://labs.outboxcraft.com" style="text-decoration:none;">Outboxcraft</a><br>
+        &copy; 2017<br></b>
     </div>
+
+	<script async defer src="https://buttons.github.io/buttons.js"></script>
 </body>
 </html>
