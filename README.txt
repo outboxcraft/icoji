@@ -1,6 +1,6 @@
-ICOJI v0.1 http://icoji.outboxcraft.com
+ICOJI v0.3 http://icoji.outboxcraft.com
 By Shubham Ramdeo and Navneet Vyas
-Copyright 2017
+Copyright 2017-present
 
 Thank you for downloading :)
 
@@ -18,69 +18,3 @@ icoji has 'css' folder which contains the stylesheets, 'font' folder which conta
 
 USAGE:
 Include the styelsheet: '<link rel="stylesheet" href="css/icoji.css">' and then to use a specific icon, use its class name. For example: '<i class="icoji-heart"></i>' Please see the below list for the current available classes.
-
-AVAILABLE FONTS:
-
-icoji-message
-icoji-connect
-icoji-bin
-icoji-user
-icoji-search
-icoji-move
-icoji-key
-icoji-game
-icoji-brick
-icoji-question
-icoji-at
-icoji-home
-icoji-arrow-right
-icoji-arrow-left
-icoji-arrow-up
-icoji-arrow-down
-icoji-upload
-icoji-download
-icoji-tick
-icoji-bars
-icoji-folder
-icoji-file
-icoji-book
-icoji-command
-icoji-mute
-icoji-unlike
-icoji-like
-icoji-experiment
-icoji-gift
-icoji-tag
-icoji-share
-icoji-pencil
-icoji-sound
-icoji-network
-icoji-vibrate
-icoji-mark
-icoji-adjust
-icoji-bookmark
-icoji-play
-icoji-pause
-icoji-stop
-icoji-eject
-icoji-save
-icoji-in
-icoji-lock
-icoji-tool
-icoji-ghost
-icoji-heart
-icoji-plus
-icoji-exclaimation
-icoji-notification
-icoji-cross
-icoji-bell
-icoji-dash
-icoji-queen
-icoji-king
-icoji-pawn
-icoji-rook
-icoji-knight
-icoji-bishop
-
-SUPPORT:
-Please visit http://support.outboxcraft.com for any support or feedback.
